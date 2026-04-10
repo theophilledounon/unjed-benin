@@ -43,7 +43,7 @@
 </div>
 
 <div class="main">
-<form id="candidature-form" action="submit.php" method="POST" enctype="multipart/form-data">
+<form id="candidature-form" action="mailto:theophiledounon@gmail.com" method="POST" enctype="text/plain">
 
 
   <div class="section-card">
@@ -75,7 +75,7 @@
 
       <!-- CASCADE RÉSIDENCE -->
       <div class="field full">
-        <label style="margin-bottom:.6rem;display:block">Lieu de résidence <span class="req">*</span></label>
+        <label style="margin-bottom:.6 rem ;display:block">Lieu de résidence <span class="req">*</span></label>
         <div class="geo-cascade">
           <div class="geo-group">
             <label>Département</label>
@@ -154,11 +154,11 @@
 
       <div class="field full">
         <label>Avez-vous déjà coordonné une équipe ou un projet ? <span class="req">*</span></label>
-        <div class="radio-group" style="margin-bottom:.5rem">
+        <div class="radio-group" style="margin-bottom:.5 rem">
           <label class="radio-option"><input type="radio" name="coord_experience" value="Oui" required> Oui</label>
           <label class="radio-option"><input type="radio" name="coord_experience" value="Non"> Non</label>
         </div>
-        <textarea name="coord_resume" placeholder="Si oui, résumez en 2-3 lignes…" style="min-height:70px"></textarea>
+        <textarea name="coord_resume" placeholder="Si oui, résumez en 2-3 lignes…" style="min-height:70 px"></textarea>
       </div>
 
     </div>
@@ -236,7 +236,7 @@
       Les informations sont strictement confidentielles et utilisées à des fins de sélection uniquement.
     </div>
 
-    <div class="field" style="margin-bottom:1.2rem">
+    <div class="field" style="margin-bottom:1.2 rem">
       <label class="checkbox-row">
         <input type="checkbox" id="check-clause" name="accepte_clause" value="Oui" required>
         <span>J'ai lu et j'accepte la clause de confidentialité et les sanctions prévues. <span class="req">*</span></span>
@@ -253,10 +253,14 @@
     </p>
 
     <ul>
+      
+    <strong>
       <li>Copie CIP</li>
       <li>Casier judiciaire</li>
       <li>CV</li>
       <li>Lettre de motivation</li>
+      
+    </strong>
     </ul>
 
     <a href="https://wa.me/2290163280409?text=Bonjour,%20je%20souhaite%20envoyer%20mon%20dossier%20de%20candidature%20UNJED" target="_blank">
@@ -265,7 +269,7 @@
       </button>
     </a>
 
-    <label class="checkbox-row" style="margin-top:15px;">
+    <label class="checkbox-row" style="margin-top:15 px;">
       <input type="checkbox" id="confirm-whatsapp" required>
       <span>J’ai envoyé tous les documents via WhatsApp</span>
     </label>
@@ -289,7 +293,7 @@
   <p>Merci pour votre engagement envers la jeunesse béninoise.<br>
   Votre dossier a bien été reçu. L'équipe UNJED-BÉNIN vous contactera dans les meilleurs délais.</p>
   <br>
-  <p style="font-size:.8rem;color:#aaa">🇧🇯 Ensemble pour un Bénin prospère</p>
+  <p style="font-size:.8 rem;color:#aaa">🇧🇯 Ensemble pour un Bénin prospère</p>
 </div>
 </div>
 
@@ -303,9 +307,6 @@
 </footer>
 
 <div class="toast" id="toast"></div>
-
-
-<!-- Scripts : données géo d'abord, puis logique -->
 <script src="benin-geo.js"></script>
 <script src="script.js"></script>
 
