@@ -46,7 +46,7 @@
 <form id="candidature-form" action="https://api.web3forms.com/submit" method="post ">
   <input type="hidden" name="acces_key" value="6ef70d06-c2e0-4d22-8dd2-d7d77ae5c024">
   <input type="hidden" name="subject" value="Nouvelle candidature Bureau Départemental UNJED-BÉNIN">
-  <input type="hidden" name="redirect" value="https://ton-site/merci.html"> 
+  <input type="hidden" name="redirect" value="https://mon-site/merci.html"> 
   <div class="section-card">
     <div class="section-header">
       <div class="section-num">1</div>
@@ -98,22 +98,20 @@
       </div>
 
       <!-- POSTE + DÉPARTEMENT À COORDONNER -->
+
+       <div class="field full">
+        <label>Département que vous souhaitez coordonner <span class="req">*</span></label>
+        <select id="coord-dept" name="departement_coordination" required>
+          <option value="">-- Choisir le département --</option>
+        </select>
+      </div>
+      
       <div class="field full">
         <label>Poste sollicité <span class="req">*</span></label>
         <select name="poste" required>
           <option value="">-- Choisir le poste --</option>
           <option>Coordonnateur Départemental</option>
           <option>Coordonnateur Départemental Adjoint</option>
-          <option>Secrétaire chargé de l'Administration et de la Coordination</option>
-          <option>Responsable de la Mobilisation et de la Communication</option>
-          <option>Responsable de l'Organisation et des Activités</option>
-        </select>
-      </div>
-
-      <div class="field full">
-        <label>Département que vous souhaitez coordonner <span class="req">*</span></label>
-        <select id="coord-dept" name="departement_coordination" required>
-          <option value="">-- Choisir le département --</option>
         </select>
       </div>
 
@@ -184,13 +182,13 @@
       </div>
 
       <div class="field full">
-        <label>Disponibilité hebdomadaire estimée <span class="req">*</span></label>
+        <label>Disponibilité journalière estimée <span class="req">*</span></label>
         <select name="disponibilite" required>
           <option value="">-- Choisir --</option>
-          <option>Moins de 3h / semaine</option>
-          <option>3h à 6h / semaine</option>
-          <option>6h à 10h / semaine</option>
-          <option>Plus de 10h / semaine</option>
+          <option>Moins de 3h / JOUR</option>
+          <option>3h à 6h / JOUR</option>
+          <option>6h à 10h /JOUR</option>
+          <option>Plus de 10h /JOUR</option>
         </select>
       </div>
 
@@ -257,14 +255,13 @@
       
     <strong>
       <li>Copie CIP</li>
-      <li>Casier judiciaire</li>
       <li>CV</li>
       <li>Lettre de motivation</li>
       
     </strong>
     </ul>
 
-    <a href="https://wa.me/2290163280409?text=Bonjour,%20je%20souhaite%20envoyer%20mon%20dossier%20de%20candidature%20UNJED" target="_blank">
+    <a href="https://wa.me/2290193176946?text=Bonjour,%20je%20souhaite%20envoyer%20mon%20dossier%20de%20candidature%20UNJED" target="_blank">
       <button type="button" class="whatsapp-btn">
         📲 Envoyer mes documents sur WhatsApp
       </button>
