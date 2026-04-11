@@ -82,15 +82,3 @@ document.getElementById('candidature-form').addEventListener('submit', async fun
     btn.innerHTML = '🇧🇯 Soumettre ma candidature'; btn.disabled = false;
   }
 });
-
-document.getElementById("candidature-form").addEventListener("submit", function(e) {
-    const check = document.getElementById("confirm-whatsapp");
-
-    if (!check.checked) {
-        e.preventDefault();
-        alert("⚠️ Veuillez envoyer vos documents sur WhatsApp avant de soumettre.");
-    }else {
-        alert("✅ Dossier envoyé avec succès !");
-        window.location.href = "merci.html";
-    }
-});
